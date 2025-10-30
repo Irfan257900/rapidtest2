@@ -31,6 +31,7 @@ import SupportRoutes from "../profile/cases/routesConfig.jsx";
 import TransactionsRoutes from "../transactions/routes.config.jsx";
 import RewardsRoutes from "../../modules/rewards/routesConfig.jsx";
 import NoAccess from "./noAccess.jsx";
+import SchedulingRoutesConfig from "../../modules/scheduling/routesConfig";
 
 const additionalModuleRoutes = [
   ...CardsRoutes,
@@ -42,6 +43,7 @@ const additionalModuleRoutes = [
   ...PayeesRoutes,
   ...NotificationsRoutes,
   ...BanksRoutes,
+  ...SchedulingRoutesConfig,
   ...SupportRoutes,
   ...TransactionsRoutes,
   ...RewardsRoutes,
