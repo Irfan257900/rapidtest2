@@ -33,6 +33,7 @@ import RewardsRoutes from "../../modules/rewards/routesConfig.jsx";
 import NoAccess from "./noAccess.jsx";
 import SupportRoutesConfig from "../../modules/support/routesConfig";
 import SchedulingRoutesConfig from "../../modules/scheduling/routesConfig";
+import InvoiceManagementRoutes from "../../modules/invoiceManagement/routesConfig.jsx";
 
 const additionalModuleRoutes = [
   ...CardsRoutes,
@@ -49,6 +50,7 @@ const additionalModuleRoutes = [
   ...SupportRoutes,
   ...TransactionsRoutes,
   ...RewardsRoutes,
+  ...InvoiceManagementRoutes
 ];
 
 const AppRoutes = createBrowserRouter([
