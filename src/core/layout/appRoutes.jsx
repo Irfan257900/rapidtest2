@@ -34,6 +34,7 @@ import NoAccess from "./noAccess.jsx";
 import SupportRoutesConfig from "../../modules/support/routesConfig";
 import SchedulingRoutesConfig from "../../modules/scheduling/routesConfig";
 import InvoiceManagementRoutes from "../../modules/invoiceManagement/routesConfig.jsx";
+import FinancialAnalyticsDashboardRoutesConfig from "../../modules/financialAnalyticsDashboard/routesConfig";
 
 const additionalModuleRoutes = [
   ...CardsRoutes,
@@ -47,7 +48,7 @@ const additionalModuleRoutes = [
   ...BanksRoutes,
   ...SupportRoutesConfig,
   ...SchedulingRoutesConfig,
-  ...SupportRoutes,
+  ...FinancialAnalyticsDashboardRoutesConfig,
   ...TransactionsRoutes,
   ...RewardsRoutes,
   ...InvoiceManagementRoutes
